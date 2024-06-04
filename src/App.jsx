@@ -6,7 +6,7 @@ import { toast } from "sonner";
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
   const [subtotal, setSubtotal] = useState(0);
-  const [shipping] = useState(4.0);
+  const shipping = 4.0; // just a random value for shipping
   const [totalWithTax, setTotalWithTax] = useState(0);
 
   useEffect(() => {
